@@ -1,0 +1,25 @@
+<h2>Score</h2>
+
+<p>Here is the random word:</p>
+<div class="random-grid">
+  <% @letters.split.each do |letter| %>
+    <div class="random-letter green">
+      <%= letter %>
+    </div>
+  <% end %>
+</div>
+
+<p>Here is your word:</p>
+<div class="random-grid">
+  <% @word.split('').each do |letter| %>
+    <div class="random-letter blue">
+      <%= letter %>
+    </div>
+  <% end %>
+</div>
+
+<p>Here is your score:</p>
+<div class="random-letter orange"><%= @score %></div>
+<p id="error"><%= @error %></p>
+
+

@@ -1,0 +1,99 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 13px;
+}
+
+::placeholder {
+   color: black;
+   opacity: 0.2;
+   letter-spacing: 0px;
+}
+
+// NEW
+
+.random-grid {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.random-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  color: white;
+  opacity: 0.7;
+  border-radius: 3px;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+#form {
+  height: 30px;
+}
+
+#input {
+  height: 100%;
+  width: 300px;
+  border: lightgrey solid 1px;
+  border-radius: 3px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#btn-send {
+  height: 110%;
+  width: 70px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  opacity: 0.65;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+// SCORE
+
+#score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.7;
+  border: none;
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+}
+
+#error {
+  color: red;
+}
